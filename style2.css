@@ -1,0 +1,355 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'MedievalSharp', cursive;
+}
+.header
+{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/group.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 23%;
+}
+nav
+{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img
+{
+	width: 145px;
+}
+.nav-links
+{
+	flex:1;
+	text-align: right;
+}
+.nav-links ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a
+{
+	color: #ff0000;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav-links ul li::after
+{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #ff0000;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after
+{
+	width:100%;
+}
+.text-box
+{
+	width: 90%;
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1
+{
+	margin: 50px 0 0;
+	font-size: 62px;
+}
+.text-box p
+{
+	margin: 10px 0 40px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+/*------JoyTraders------*/
+
+.JoyTraders
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url('Images/prom.png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 50px;
+}
+.JoyTraders h1
+{
+	font-size: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	width: 40%;
+}
+.JoyTraders p
+{
+	width: 50%;
+	margin: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+.traderspicture
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.fa-instagram
+{
+	color: #fff;
+	padding-top: 50px;
+}
+
+.instalink
+{
+	size: 300%;
+}
+
+.Contact ul li
+{
+	size: 150%
+	list-style: none;
+	display: inline;
+}
+
+i 
+{
+	font-size: 60px;
+}
+
+/*------Trends------*/
+
+.ChasingTrends
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url('Images/prom2.jpeg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.ChasingTrends h1
+{
+	font-size: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	width: 40%;
+}
+
+.ChasingTrends p
+{
+	width: 50%;
+	margin: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.trendspicture
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*------Saturn Lights------*/
+
+.SaturnLights
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url('Images/prom3.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.SaturnLights h1
+{
+	font-size: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	width: 40%;
+}
+
+.SaturnLights p
+{
+	width: 50%;
+	margin: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.lightspicture
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*------RLD------*/
+
+.RLD
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url('Images/prom4.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.RLD h1
+{
+	font-size: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	width: 40%;
+}
+
+.RLD p
+{
+	width: 50%;
+	margin: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.rldpicture
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*------Bessie------*/
+
+.Bessie
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url('Images/prom5.png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.Bessie h1
+{
+	font-size: 62px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	width: 40%;
+}
+
+.Bessie p
+{
+	width: 50%;
+	margin: auto;
+	border: 2px transparent #73AD21;
+	color: #ffffff;
+	background: #ffffff;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.bessiepicture
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}

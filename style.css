@@ -1,0 +1,380 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'MedievalSharp', cursive;
+}
+.header
+{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Images/liveband.JPG');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 23%;
+}
+nav
+{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img
+{
+	width: 145px;
+}
+.nav-links
+{
+	flex:1;
+	text-align: right;
+}
+.nav-links ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a
+{
+	color: #ff0000;
+	text-decoration: none;
+	font-size: 20px;
+}
+.nav-links ul li::after
+{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #ff0000;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after
+{
+	width:100%;
+}
+.text-box
+{
+	width: 90%;
+	color: #ff0000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1
+{
+	margin: 50px 0 0;
+	font-size: 62px;
+}
+.text-box p
+{
+	margin: 10px 0 40px;
+	font-size: 25px;
+	color: #ff0000;
+}
+.hero-btn
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 24px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hero-btn:hover
+{
+	border: 1px solid #000000;
+	background: #000000;
+	transition: 1s;
+}
+
+nav .fa{
+	display: none;
+}
+
+@media(max-width: 900px)
+{
+	.text-box h1
+	{
+		margin: 35px 0 0;
+		font-size: 20px;
+	}
+	.nav-links ul li
+	{
+		display: block;
+	}
+	.nav-links ul li a
+	{
+		color: #000000;
+		text-decoration: none;
+		font-size: 20px;
+	}
+	.nav-links ul li::after
+	{
+		content: '';
+		width: 0%;
+		height: 2px;
+		background: #000000;
+		display: block;
+		margin: auto;
+		transition: 0.5s;
+	}
+	.nav-links ul li:hover::after
+	{
+		width:100%;
+	}
+	.nav-links
+	{
+		position: absolute;
+		background: #ff0000;
+		height: 100vh;
+		width: 200px;
+		top: 0;
+		right: -200px;
+		text-align: left;
+		z-index: 2;
+		transition: 1s;
+	}
+	nav .fa
+	{
+		display: block;
+		color: #fff;
+		margin: 10px;
+		font-size: 22px;
+		cursor: pointer;
+	}
+	.nav-links ul
+	{
+		padding: 30px;
+	}
+	.text-box3 p
+	{
+		margin: 35px 0 0;
+		font-size: 20px;
+	}
+}
+
+/*------dates------*/
+
+.dates
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	background-image: linear-gradient(rgba(4,9,30,0),rgba(4,9,30,0)),url('Images/kingjohn.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+h1
+{
+	font-size: 36px;
+	font-weight: 600;
+}
+p{
+	color: #800080;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.dates-col
+{
+	display: inline-block;
+	margin: 0 auto;
+	width: 80%;
+	flex-basis: 31%;
+	background: #FA86C4;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: boder-box;
+	transition: 0.5s;
+	border: 2px solid #800080;
+}
+.dates-col a h3
+{
+	color: #000000;
+	text-decoration: none;
+}
+h3
+{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.dates-col:hover
+{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+
+/*-----Music-----*/
+
+.Music
+{
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('Images/scream.JPG');
+	background-position: center;
+	background-size: cover;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h4
+{
+	font-size: 36px;
+	padding: 50px 50px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+}
+
+.albumLink
+{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+h5
+{
+	font-size: 26px;
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0;
+	color: #fff;
+}
+
+.swampsesh
+{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+h6
+{
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.Merch
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #ff0000;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/DTS.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.cd img
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 400px;
+	width: 400px;
+}
+
+.text-box2 p
+{
+	font-size: 26px;
+	color: #fff;
+}
+
+.text-box2
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+}
+
+.About
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #ff0000;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/pedal.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.text-box3
+{
+    text-align: center;
+}
+
+.text-box3 p
+{
+    text-align: center;
+	padding-top: 50px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 1.5;
+}
+
+.Contact h1
+{
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/album.jpg);
+	margin-bottom: -120px;
+	background-position: center;
+	background-size: cover;
+}
+
+.Contact ul
+{
+	text-align: center;
+}
+
+.Contact p
+{
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 12px;
+}
+
+.fa-facebook
+{
+	color: #fff;
+	padding: 10px;
+}
+
+.fa-instagram
+{
+	color: #fff;
+	padding: 10px;
+}
+
+.Contact ul li
+{
+	size: 150%;
+	list-style: none;
+	display: inline;
+}

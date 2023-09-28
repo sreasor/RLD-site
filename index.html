@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale=1.0">
+	<title>Red Letter Day Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+</head>
+<body>
+
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="Images/logo.png" witdh="15" height="100" position= fixed></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="#music">MUSIC</a></li>
+					<li><a href="#datesA">DATES</a></li>
+					<li><a href="#merch">MERCH</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<div class="text-box">
+		<h1>Red Letter Day</h1>
+		<p>New Single: "It Really Matters" Out Now!</p>
+		<a href="#datesA" class="hero-btn">TICKETS</a>
+	</div>
+	</section>
+
+<!------Dates------>
+
+	<section class="dates">
+		<h1 id="datesA">Upcoming Tour Dates</h1>
+		<p>here we go</p>
+		<div class="row">
+			<div class="dates-col">
+			    <a style= "text-decoration: none" href="thefestfl.com">
+				<h3>10/27 - Gainesville, FL - Fest 21</h3>
+				<p>232 SE 1st St, Gainesville, FL 32601: 3:30, SOLD OUT, check website for more info</p>
+				</a>
+			</div>
+		</div>
+	</section>
+
+<!------Music------>
+
+<section class="Music">
+	<div class="headingTitle">
+		<h4 id="music">New Single "It Really Matters"<br>OUT NOW!</h4>
+	</div>
+	<div class="albumLink">
+		<a href="https://open.spotify.com/album/22ZwX6qiFJVdhAERcyEgkp?si=8060b6133ebc4467"><img src="Images/IRM.jpg" width="400" height="400"></a>
+	</div>
+	<h5>Available on Spotify, Apple Music, Youtube etc. <br> CDs available at shows!</h5>
+	<div class="swampsesh">
+		<h6>Check out our Swamp Session!</h6>
+		<iframe width="420" height="315"
+		src="https://www.youtube.com/embed/7PL6zAcWAQ8">
+		</iframe>
+	</div>
+</section>
+
+<!------Merch------>
+
+<section class="Merch">
+	<h1 id="merch">Merch</h1>
+	<div class="cd">
+		<img src="Images/cdplace.jpg" width:"100px" height:"100px">
+	</div>
+	<div class="text-box2">
+		<p>CDs: Coming Soon!</p>
+	</div>
+</section>
+
+<!-----About----->
+
+<section class="About">
+	<h1 id="about">About</h1>
+	<div class="text-box3" style="text-align:center">
+		<p>Red Letter Day is a Gainesville-based rock band with members Eduardo Giralt (vocals), Sam Graf (bass), Sam Reasor (lead guitar), Daniel Klohr (drums), and Kyle Wampler (rhythm guitar/vocals). Formed in the summer of 2020, the band set out on a mission to further the ideas of alternative and post-hardcore music by incorporating sound reminiscent of bands like Glassjaw, My Chemical Romance, Radiohead, Dance Gavin Dance, and Coheed and Cambria. Their latest release, It Ends Up In Everything, is an accurate depiction of the sound the band wishes to create. Mixed and mastered by Lee Dyess (From First To Last, Against Me!, Mayday Parade), this record is something that the band is really proud of, and excited to share with the world. The band is currently working on some new singles that should be ready for release late 2022/early 2023. Keep your eyes peeled for new music and shows near you. Thanks for listening, we love  you guys!</p>
+</section>
+
+<section class="Contact">
+	<h1 id="contact">Email: redletterdayfl@gmail.com</h1>
+	<ul>
+		<li><a style="text-decoration: none" href="https://www.facebook.com/redletterdayfl"><i class="fab fa-facebook"></i></a></li>
+		<li><a style="text-decoration: none" href="https://www.instagram.com/redletterdayfl/?hl=en"><i class="fab fa-instagram"></i></a></li>
+	</ul>
+
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu()
+	{
+		navLinks.style.right = "0";
+	}
+	function hideMenu()
+	{
+		navLinks.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
